@@ -1,0 +1,180 @@
+img{
+    animation: mymove 1s infinite;
+    position: relative;
+}
+@keyframes mymove {
+    from{
+top:-20px;
+    }
+    to{
+top:20px;
+    }
+  0%,100%{
+      transform: rotateZ(45deg);
+  }
+  50%{
+      transform:rotateZ(-45deg);
+  }
+
+
+}
+body{
+    background: radial-gradient(pink,violet,purple,indigo);
+}
+div{
+    position:absolute;
+    transform: translate(195%,-100%);
+
+}
+.big{
+    transform: translate(180%,-10%);
+    animation: mymov 1.5s infinite;
+}
+@keyframes mymov {
+    from {top: 0px;}
+    to {top: 20px;}
+  }
+  h1{
+      font-size: 50px;
+      scroll-padding-right: 10px;
+      font-style: italic;
+      transform: translate(-10%,-10%);
+  }
+  h2{
+      position: absolute;
+    transform: translate(100%,120%);
+    animation: mymovee 1.5s infinite;
+  }
+  @keyframes mymovee{
+      from{top:290px}
+      to{top:330px}
+  }
+  .ram{
+      position:absolute;
+      animation: m 1s infinite;
+      transform: translate(-150%,180%);
+      border:10px solid lightseagreen;
+  }
+  .rem{
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(250%,180%);   
+    border:10px solid lightseagreen;
+}
+h3{
+    border: 5px dotted red;
+    padding: 10px;
+    transform: translate(60%,40%);  
+    background: radial-gradient(yellow,orange);
+    text-align: center;
+    width:45%
+}
+.s{
+    width:220px;
+    border: 5px solid red;
+    background: radial-gradient(yellow,orange);
+    transform: translate(280%,160%); 
+}
+.rcm{
+    object-fit: cover;
+    object-position:2%,20%;
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(-150%,260%);
+    border:10px solid lightseagreen;
+}
+.rim{
+    position:absolute;
+    animation: m 1s infinite;
+    transform: translate(250%,260%);   
+    border:10px solid lightseagreen;
+}
+
+h6{
+    font-size: 50px;
+    scroll-padding-right: 10px;
+    font-style: italic;
+    transform: translate(30%,20%);
+}
+canvas{
+
+border:12px solid goldenrod;
+
+}
+.y{
+    margin-left: 130px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.loon{
+    animation: myi 2s infinite;
+}
+@keyframes myi{
+    0%,100%{
+      
+        transform:rotateY(0deg);
+    }
+    25%{
+       
+        transform:rotateY(-180deg);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    75%{
+        transform: rotateY(180deg);;
+    }
+}
+.Game{
+    transform: translate(480px,370px);
+    font-size: 40px;
+    font-family: Georgia;
+   display: flex;
+   flex-direction: column;
+}
+.hellonf{
+
+position:absolute;
+animation: 2;
+    width:650px;
+height:380px;
+    margin-top: -80px;
+    margin-left: 750px;
+    border:20px groove gold;
+}
+.jd{ 
+    animation:ee;
+    margin-top: -180px;
+    margin-left: -450px;
+    
+}
+.ho{
+    transform: translate(480px,650px);
+    font-size: 40px;
+    font-family: Georgia;
+   display: flex;
+   flex-direction: column;
+}
+.tata{
+    width:200px;
+    height:200px;
+    margin-top: -225px;
+    margin-left: -380px;
+    animation:none;
+}
+.ton{
+    font-size: 40px;
+    margin-top:80%;
+    margin-left:-85%;
+}
+
+.some{
+    border:5px solid royalblue;
+background: radial-gradient(violet,indigo);
+font-size: 30px;
+margin-left: 180px;
+}
+.some:hover{
+    background: radial-gradient(lightblue,blue);
+
+}
