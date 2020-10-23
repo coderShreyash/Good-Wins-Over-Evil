@@ -29,7 +29,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(displayWidth-970,displayHeight-600);
+  createCanvas(displayWidth-566,displayHeight-264);
   play = createButton("Play")
   play.position(displayWidth-1350,displayHeight+260)
   play.size(200,200);
