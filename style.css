@@ -1,5 +1,5 @@
 img{
-    animation: mymove 1s infinite;
+    animation: mymove 1.2s linear infinite;
     position: relative;
 }
 @keyframes mymove {
