@@ -31,14 +31,14 @@ function preload(){
 function setup() {
   createCanvas(565,265);
   play = createButton("Play")
-  play.position(displayWidth-1350,displayHeight+260)
+  play.position(186,1124)
   play.size(200,200);
   play.style('border-radius','100px');
   play.style('font-size','50px');
   play.style('background','radial-gradient(yellow,orange,red)');
   play.style('border','5px solid black')
   jump = createButton("Jump");
-  jump.position(displayWidth-1300,displayHeight+500)
+  jump.position(236,1364)
   jump.size(100,45);
   jump.style('font-size','25px');
   jump.style('background','radial-gradient(yellow,orange,red)');
