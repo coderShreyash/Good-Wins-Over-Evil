@@ -3,12 +3,7 @@ img{
     position: relative;
 }
 @keyframes mymove {
-    from{
-top:-20px;
-    }
-    to{
-top:20px;
-    }
+  
   0%,100%{
       transform: rotateZ(45deg);
   }
